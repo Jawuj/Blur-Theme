@@ -6,4 +6,4 @@ A Blur Theme Obsidian With Custom Wallpaper.
 
 # Screenshots.
 
-<img src="https://raw.githubusercontent.com/Jawuj/Blur-Theme/refs/heads/main/Screenshots/Screenshot1.png" width="75%"/>
+<img src="https://raw.githubusercontent.com/Jawuj/Blur-Theme/refs/heads/main/Screenshot.png" width="75%"/>
