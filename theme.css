@@ -1,3 +1,10 @@
+/*
+name: Blur
+author: Jawuj
+description: A Blur Theme for Obsidian with optional custom wallpaper support.
+version: 1.0.0
+repository: https://github.com/Jawuj/Blur-Theme
+*/
 /* ────────────────────────────────────────────────
    🌌 THEME SETTINGS (Obsidian Style Settings Plugin)
    ──────────────────────────────────────────────── */
@@ -7,9 +14,9 @@ id: theme-settings
 settings:
   - id: custom-wallpaper
     title: Custom Wallpaper URL
-    description: Enter a direct image link (e.g. https://i.postimg.cc/XXXXXX/image.png)
+    description: Enter a direct image link e.g. url(https://i.postimg.cc/XXXXXX/image.png)
     type: variable-text
-    default: url("https://i.postimg.cc/Jn149j48/Rome-Baby-vibes.jpg")
+    default: none
 
   - id: toggle-glow
     title: Enable Glow
@@ -100,13 +107,6 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-/* Mobile fallback */
-@media screen and (max-width: 768px) {
-  body {
-    background-image: url("app://local/09%20-%20Media/Wallpapers/BlackWall.png");
-  }
 }
 
 
@@ -444,14 +444,7 @@ select,
    Lightweight, monochrome chevron that matches UI.
    Change fill to another color if needed.
 */
-select,
-.modal select,
-.popover select,
-.setting-item-control select,
-.css-settings-manager select {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%23FFFFFF' d='M6 8L0 0h12z'/></svg>");
-  background-size: 12px 8px;
-}
+
 
 /* If you want the chevron to be subtle / grey instead of white, use e.g. %23888888 for fill. */
 
